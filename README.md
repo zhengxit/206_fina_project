@@ -24,7 +24,7 @@ The following are the instructions to run the program
   python3 main_program.py
 ```
 
-# About data.py
+# Data Sources Used
 data.py is used to crawl webpages and call Twitter API to fetch data and store it
 in a cache file. Then crimes.db will be created based on the data fetched.
 
@@ -34,6 +34,11 @@ in a cache file. Then crimes.db will be created based on the data fetched.
         since the data on Twitter might change. So to ensure the success of unit tests, please
         use the cache.json currently have on this repository.
 ```
+
+# Code structure
+The main program, main_program.py, consists of five important functions(i.e., option_one,
+option_two, option_three, option_four and option_five). Each of those functions will execute
+one menu option.
 
 
 # Program options
@@ -53,5 +58,13 @@ If you choose menu option 5, then the program will jump to the second level menu
 with 30 tweets about the type of crime you pick.
 
 ```
-  Note: Once you choose option 5, the program will not let you choose other menu options and you have to manually end the program with control + C.
+  Note: Once you choose option 5, the program will not let you choose other
+  menu options and you have to manually end the program with control + C.
+```
+
+# Exit the program
+Type the following command on the first level menu to exit the program.
+
+```
+  exit
 ```

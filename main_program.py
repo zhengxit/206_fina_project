@@ -189,20 +189,20 @@ def hello_name(crime_input):
 
 ## main program
 if __name__=="__main__":
-    user_choice = input("Enter menu option(1, 2, 3, 4 or 5): ")
+    user_choice = input("Enter menu option(1, 2, 3, 4, 5 or exit): ")
     while (user_choice != "5" and user_choice != "exit"):
         if user_choice == "1":
             option_one()
-            user_choice = input("Enter menu option(1, 2, 3, 4 or 5): ")
+            user_choice = input("Enter menu option(1, 2, 3, 4, 5 or exit): ")
         elif user_choice == "2":
             option_two()
-            user_choice = input("Enter menu option(1, 2, 3, 4 or 5): ")
+            user_choice = input("Enter menu option(1, 2, 3, 4, 5 or exit): ")
         elif user_choice == "3":
             option_three()
-            user_choice = input("Enter menu option(1, 2, 3, 4 or 5): ")
+            user_choice = input("Enter menu option(1, 2, 3, 4, 5 or exit): ")
         elif user_choice == "4":
             option_four()
-            user_choice = input("Enter menu option(1, 2, 3, 4 or 5): ")
+            user_choice = input("Enter menu option(1, 2, 3, 4, 5 or exit): ")
         else:
             user_choice = input("Invalid menu choice, please enter a valid choice: ")
 
