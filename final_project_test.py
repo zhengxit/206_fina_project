@@ -1,6 +1,6 @@
 import unittest
 from main_program import *
-from data import *
+# from data import *
 
 
 DBNAME = "crimes.db"
