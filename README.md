@@ -11,12 +11,6 @@ Python3 installed. The following is the step by step instruction:
   virtualenv -p <python3_path> final_project_vir_env
 ```
 
-# Install Dependencies
-Use the following command to install all the dependencies
-```
-  pip install -r requirements.txt
-```
-
 # How to run the program
 The following are the instructions to run the program
 
@@ -25,7 +19,12 @@ The following are the instructions to run the program
   source final_project_vir_env/bin/activate
 ```
 
-2. run the program
+2. Use the following command to install all the dependencies
+```
+  pip install -r requirements.txt
+```
+
+3. run the program
 ```
   python3 main_program.py
 ```
