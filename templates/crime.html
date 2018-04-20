@@ -1,0 +1,7 @@
+<h2>These are some tweets about {{current_crime}}!</h2>
+
+<ol>
+  {% for tweet in current_tweets %}
+    <li><p>{{tweet}}</p></li>
+  {% endfor %}
+</ol>
