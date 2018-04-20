@@ -25,10 +25,8 @@ The following are the instructions to run the program
 ```
 
 # About data.py
-```
-  data.py is used to crawl webpages and call Twitter API to fetch data and store it
-  in a cache file. Then crimes.db will be created based on the data fetched.
-```
+data.py is used to crawl webpages and call Twitter API to fetch data and store it
+in a cache file. Then crimes.db will be created based on the data fetched.
 
 ```
   Note: the test file final_project_test.py is based on the data I fetched a while ago.
